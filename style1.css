@@ -1,0 +1,157 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #e6e6fa;
+}
+   
+
+.y {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color:#e6e6fa;
+}
+
+.button {
+    background-color: #f3ece7;
+    display: block;
+    margin: 0 auto;
+}
+
+.textmiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+#form1 {
+    display: inline-block;
+   
+}
+
+/* Button Style */
+.buttonsmall {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #6930c3; /* Dark purple border */
+    border-radius: 5px;
+    color: #fff; /* White text */
+    background-color: #6a0572; /* Dark purple background */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    /* Hover State */
+    .buttonsmall:hover {
+        background-color: #7b3fa1; /* Lighter purple background on hover */
+        color: #fff; /* White text on hover */
+    }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #6930c3; /* Dark purple border */
+    border-radius: 5px;
+    color: #fff; /* White text */
+    background-color: #6a0572; /* Dark purple background */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .button:hover {
+        background-color: #7b3fa1; 
+        color: #fff; 
+    }
+
+
+#GridView2 th,
+#GridView1 th,
+#GridView3 th,
+#GridView4 th,
+#GridView5 th, .headerCell,
+#GridViewCourses th, #GridViewStudents th, #GridViewStudent th {
+    background-color: #7c6c8b;
+    color: #fff;
+}
+
+#GridView2, #GridView1, #GridView3, #GridView4, #GridView5, #GridViewCourses, #GridViewStudents {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #cbb8e3;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #cbb8e3;
+}
+
+ 
+td {
+  
+   
+    text-align: left; 
+    border: 1px solid #dcd6e5;
+}
+.normalcells {
+    border: 1px solid #dcd6e5;
+}
+
+
+
+
+#GridView2 th,
+#GridView2 td,
+#GridView1 th,
+#GridView1 td,
+#GridView3 th,
+#GridView3 td,
+#GridView4 th,
+#GridView5 td,
+#GridViewCourses td,
+#GridViewCourses th,
+#GridViewStudents th,
+#GridViewStudents td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dcd6e5;
+}
+
+#GridView2 tr,
+#GridView1 tr,
+#GridView3 tr,
+#GridView4 tr,
+#GridView5 tr,
+table tr,
+#GridViewCourses 
+#GridViewStudents  {
+   background-color: #f0ebf4;
+}
+
+#GridView2 tr:hover,
+#GridView1 tr:hover,
+#GridView3 tr:hover,
+#GridView4 tr:hover,
+#GridView5 tr:hover,
+table tr:hover,
+#GridViewCourses hover {
+    background-color: #b3a1cf;
+}
